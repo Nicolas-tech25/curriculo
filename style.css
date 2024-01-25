@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFDE59;
+}
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+.container {
+  background-color: #fff;
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.col {
+  flex: 1;
+  margin: 0 10px;
+}
+.profile {
+  text-align: center;
+}
+.profile img {
+  width: 300px;
+  height: 400px;
+  border-radius: 10%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.profile h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.profile p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.skills {
+  background-color: #FFDE59;
+  padding: 20px;
+  margin-top: 20px;
+}
+.skills h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.skills li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* ============================== */
+/* Graficos */
+.skills {
+	width: 50%;
+	margin: 50px auto;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.skill-bar {
+	height: 20px;
+	background-color: #f0f0f0;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	animation: increaseWidth 2s ease-out forwards;
+}
+
+@keyframes increaseWidth {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+.html {
+	background-color: #e44d26;
+}
+
+.css {
+	background-color: #2965f1;
+}
+
+.javascript {
+	background-color: #09beb5;
+}
+
+.php {
+	background-color: #787cb5;
+}
+
+.git {
+	background-color: #f34f29;
+}
+
+.skill-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-weight: bold;
+}
